@@ -1,4 +1,9 @@
-#um clone do Pipefy feito em React
+# um clone do Pipefy feito em React
+
+## teste
+
+- usando o yarn `yarn` => `yran start`
+- usando o npm `npm install` => `npm start`
 
 ## drag and drop
 
