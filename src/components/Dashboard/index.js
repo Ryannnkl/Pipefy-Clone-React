@@ -6,24 +6,40 @@ import {
   MdAndroid,
   MdLanguage,
   MdDashboard,
-  MdViewCompact
+  MdViewCompact,
 } from "react-icons/md";
-import { Container, View } from "./styles";
+import { Container, View, Content } from "./styles";
 
 export default function Dashboard() {
   return (
     <Container>
       <View>
-        <MdDashboard className="icon" size={24} color="#9aaabe" />
-        <MdStorage className="icon" size={24} color="#9aaabe" />
-        <MdViewCompact className="icon" size={24} color="#9aaabe" />
-        <MdAndroid className="icon" size={24} color="#9aaabe" />
-        <MdLanguage className="icon" size={24} color="#9aaabe" />
+        <Content>
+          <MdDashboard className="icon" size={24} color="#9aaabe" />
+        </Content>
+        <Content>
+          <MdStorage className="icon" size={24} color="#9aaabe" />
+        </Content>
+        <Content>
+          <MdViewCompact className="icon" size={24} color="#9aaabe" />
+        </Content>
+        <Content>
+          <MdAndroid className="icon" size={24} color="#9aaabe" />
+        </Content>
+        <Content>
+          <MdLanguage className="icon" size={24} color="#9aaabe" />
+        </Content>
       </View>
       <View>
-        <p id="help-text">Help</p>
-        <MdHelp className="icon" size={24} color="#9aaabe" />
-        <MdSms className="icon" size={24} color="#9aaabe" />
+        <Content>
+          <p id="help-text">Help</p>
+        </Content>
+        <Content>
+          <MdHelp className="icon" size={24} color="#9aaabe" />
+        </Content>
+        <Content>
+          <MdSms className="icon" size={24} color="#9aaabe" />
+        </Content>
       </View>
     </Container>
   );
